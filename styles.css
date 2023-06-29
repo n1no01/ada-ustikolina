@@ -1,0 +1,173 @@
+body {
+    background-image: url(images/water.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+    flex-wrap: nowrap;
+  }
+  
+h1 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: normal;
+    font-weight:lighter;
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-image: linear-gradient(to bottom right, rgb(143, 183, 236), white);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  .icons{
+    width: 40px;
+  }
+  .item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .hotdrinks, .nonalcoholic-drinks, .alcoholic-drinks, .rent {
+    text-align: left;
+    width: 70%;
+    font-weight: bold;
+  }
+  
+  .price {
+    text-align: right;
+    font-weight: bold;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
+
+  @media screen and (max-width: 480px)
+  {
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .item p {
+      display: inline-block;
+      font-size: 12px;
+    }
+    h1{
+      font-size: 30px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    .icons{
+      width: 30px;
+    }
+    .established{
+      font-size: 12px;
+    }
+    .menu {
+      max-width: 90%;
+      width: 90%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 5%;
+    }
+  }
+
+  @media screen and (max-width: 1024px)
+  {
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .item p {
+      display: inline-block;
+      font-size: 12px;
+    }
+    h1{
+      font-size: 37px;
+    }
+    h2{
+      font-size: 27px;
+    }
+    .icons{
+      width: 40px;
+    }
+    .established{
+      font-size: 14px;
+    }
+    .menu {
+      width: 90%;
+      max-width: 90%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 5%;
+    }
+  }
